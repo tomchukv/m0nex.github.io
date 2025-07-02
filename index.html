@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>m0NEX | Links</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #1f1f1f, #000000);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      animation: fadeIn 1.2s ease-in-out;
+      padding: 20px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .card-container {
+      position: relative;
+      width: 100%;
+      max-width: 430px;
+      animation: fadeIn 1.5s ease-in-out;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.55);
+    }
+    .card {
+      background-color: #0f0f0f;
+      color: white;
+      padding: 80px 25px 40px;
+      border-radius: 22px;
+      text-align: center;
+    }
+    .avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #e0e0e0;
+      position: absolute;
+      top: -70px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #0f0f0f;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+    h1 {
+      margin: 0;
+      font-size: 30px;
+      letter-spacing: 1px;
+    }
+    p {
+      margin: 10px 0 25px;
+      font-size: 15px;
+      color: #cccccc;
+    }
+    .link {
+      display: block;
+      margin: 12px auto;
+      width: 100%;
+      max-width: 320px;
+      background-color: #1e1e1e;
+      color: white;
+      text-decoration: none;
+      padding: 14px;
+      font-size: 17px;
+      border-radius: 12px;
+      transition: all 0.25s ease;
+      box-shadow: 0 0 0 transparent;
+    }
+    .link:hover {
+      background-color: #292929;
+      transform: scale(1.03);
+      box-shadow: 0 4px 14px rgba(255, 255, 255, 0.08);
+    }
+    .link i {
+      margin-right: 10px;
+    }
+
+    @media (max-width: 480px) {
+      .avatar {
+        width: 120px;
+        height: 120px;
+        top: -60px;
+      }
+      h1 {
+        font-size: 26px;
+      }
+      .link {
+        font-size: 16px;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card-container">
+    <img class="avatar" src="https://i.ibb.co/ns8RP2jR/b3a2d6a98f6845b60288aac5e2ea3734.jpg" alt="m0NEX avatar">
+    <div class="card">
+      <h1>m0NEX</h1>
+      <p>🎮 CS2 player & streamer<br>🇺🇦 TikTok edits & YouTube content</p>
+
+      <a class="link" href="https://youtube.com/@m0NEX" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+      <a class="link" href="http://twitch.tv/m0nex_cs2" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
+      <a class="link" href="http://tiktok.com/@m0nex_cs2" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+      <a class="link" href="https://t.me/m0NEX_CS2" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
+      <a class="link" href="https://youtube.com/@m0NEX" target="_blank"><i class="fas fa-dollar-sign"></i> Donatello</a>
+    </div>
+  </div>
+
+</body>
+</html>
